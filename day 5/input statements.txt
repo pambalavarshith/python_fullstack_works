@@ -1,0 +1,272 @@
+Python 3.15.0 (tags/v3.15.0:d220409, Oct  9 2026, 11:55:56) [MSC v.1951 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+##BITWISE OPERATORS
+5&14
+4
+11&12
+8
+8|9
+9
+11^12
+7
+~11
+-12
+~22
+-23
+`77
+SyntaxError: invalid syntax
+~77
+-78
+14>>2
+3
+22>>6
+0
+55<5
+False
+4<<2
+16
+5<<2
+20
+a=input("enter the string:")
+enter the string:varshith
+a
+'varshith'
+type(a)
+<class 'str'>
+a=input()
+9963862797
+a
+'9963862797'
+type(a)
+<class 'str'>
+a = int(input())
+223
+a
+223
+a= int(" enter the integer:")
+Traceback (most recent call last):
+  File "<pyshell#22>", line 1, in <module>
+    a= int(" enter the integer:")
+ValueError: invalid literal for int() with base 10: ' enter the integer:'
+a= int(input(" enter the integer:"))
+ enter the integer:150504
+a
+150504
+a = float(input("enter the float:"))
+enter the float:22.2
+a
+22.2
+a=float()
+a
+0.0
+a = float(22.3)
+a
+22.3
+a= int(input(" enter the float:"))
+ enter the float:12
+a
+12
+a = list(input("enter the list":))
+SyntaxError: invalid syntax
+a = list(input("enter the list:"))
+enter the list:11234567
+a
+['1', '1', '2', '3', '4', '5', '6', '7']
+a
+['1', '1', '2', '3', '4', '5', '6', '7']
+a=input().split()
+a
+123
+123
+a
+['a']
+a=12
+a=input().split()
+12,3,44,5,55
+a
+['12,3,44,5,55']
+a=list(map(int,input().split()))
+a
+Traceback (most recent call last):
+  File "<pyshell#43>", line 1, in <module>
+    a=list(map(int,input().split()))
+ValueError: invalid literal for int() with base 10: 'a'
+12,22,334,44,55
+(12, 22, 334, 44, 55)
+a= input().split()
+"12,2,3,4,44,66"
+a
+['"12,2,3,4,44,66"']
+a=list(map(int,input().split()))
+11,22,33,44,55
+Traceback (most recent call last):
+  File "<pyshell#47>", line 1, in <module>
+    a=list(map(int,input().split()))
+ValueError: invalid literal for int() with base 10: '11,22,33,44,55'
+a
+['"12,2,3,4,44,66"']
+a=list(map(int,input().split()))
+a
+Traceback (most recent call last):
+  File "<pyshell#49>", line 1, in <module>
+    a=list(map(int,input().split()))
+ValueError: invalid literal for int() with base 10: 'a'
+a=12,3,4,45,5,5
+a=list(map(int,input().split()))
+
+a=list(map(int,input().split()))
+Traceback (most recent call last):
+  File "<pyshell#51>", line 1, in <module>
+    a=list(map(int,input().split()))
+ValueError: invalid literal for int() with base 10: 'a=list(map(int,input().split()))'
+a=list(map(int,input().split()))
+12 22 33 34 55 
+a
+[12, 22, 33, 34, 55]
+a= list(map(float,input().split()))
+12.2 11.2 33.4 55.4
+a
+[12.2, 11.2, 33.4, 55.4]
+a=tuple().split()
+Traceback (most recent call last):
+  File "<pyshell#56>", line 1, in <module>
+    a=tuple().split()
+AttributeError: 'tuple' object has no attribute 'split'
+a=tuple().split()
+Traceback (most recent call last):
+  File "<pyshell#57>", line 1, in <module>
+    a=tuple().split()
+AttributeError: 'tuple' object has no attribute 'split'
+a=tuple().split()
+Traceback (most recent call last):
+  File "<pyshell#58>", line 1, in <module>
+    a=tuple().split()
+AttributeError: 'tuple' object has no attribute 'split'
+a = tuple(input().split()
+          12 22  33 44
+          
+SyntaxError: '(' was never closed
+a = tuple(input().split())
+          
+a = tuple(input().split())
+112 33 44 55
+          
+SyntaxError: invalid syntax
+a = tuple(input().split())
+          
+
+12 22 33 44
+          
+SyntaxError: invalid syntax
+a,b,c= list(map(float,input().split()))
+          
+
+Traceback (most recent call last):
+  File "<pyshell#65>", line 1, in <module>
+    a,b,c= list(map(float,input().split()))
+ValueError: not enough values to unpack (expected 3, got 0)
+a,b,c= list(map(float,input().split())))
+SyntaxError: unmatched ')'
+a= eval(input())
+11.2
+a
+11.2
+type(a)
+<class 'float'>
+a,b,c= list(map(float,input().split()))
+
+
+Traceback (most recent call last):
+  File "<pyshell#76>", line 1, in <module>
+    a,b,c= list(map(float,input().split()))
+ValueError: not enough values to unpack (expected 3, got 0)
+a= eval(input().split())
+
+Traceback (most recent call last):
+  File "<pyshell#77>", line 1, in <module>
+    a= eval(input().split())
+TypeError: eval() arg 1 must be a string, bytes or code object
+a= eval(input().split())
+
+Traceback (most recent call last):
+  File "<pyshell#84>", line 1, in <module>
+    a= eval(input().split())
+TypeError: eval() arg 1 must be a string, bytes or code object
+
+a= eval(input())
+
+Traceback (most recent call last):
+  File "<pyshell#93>", line 1, in <module>
+    a= eval(input())
+  File "<string>", line 0
+    
+SyntaxError: invalid syntax
+a=eval (input())
+
+Traceback (most recent call last):
+  File "<pyshell#94>", line 1, in <module>
+    a=eval (input())
+  File "<string>", line 0
+    
+SyntaxError: invalid syntax
+a = eval(input())
+45.13
+type(a)
+<class 'float'>
+a=eval(input())
+2+2j
+a
+(2+2j)
+type(a)
+<class 'complex'>
+## f string
+a=10
+b=20
+c="codegnan"
+a
+10
+b
+20
+c
+'codegnan'
+print(a,b,c)
+10 20 codegnan
+a,b,c=(10,20,'codegnan')
+a
+10
+b
+20
+c
+'codegnan'
+a,b,c=(10,20,'institute')
+a
+10
+b
+20
+c
+'institute'
+print("a=",a,"b=",b,"c=",c)
+a= 10 b= 20 c= institute
+print("a=",a,"b=",b,"c=",c,sep='')
+a=10b=20c=institute
+print("a=",a,"b=",b,"c=",c,sep='-')
+a=-10-b=-20-c=-institute
+print("a=",a,"b=",b,"c=",c,end='\n\n')
+a= 10 b= 20 c= institute
+
+>>> print("a=",a,"b=",b,"c=",c,end='@')
+a= 10 b= 20 c= institute@
+>>> print("a=",a,"b=",b,"c=",c,end='\n\n')
+... 
+a= 10 b= 20 c= institute
+
+
+>>> print(f'a={a} b={b} c={c}')
+a=10 b=20 c=institute
+>>> ## f string
+>>> print("a=%d,"b=%2.f","c=&s",end='\n\n')
+...       
+SyntaxError: invalid decimal literal
+>>> print("a=%d,"b=%2f","c=&s",end='\n\n')
+...       
+SyntaxError: invalid decimal literal
